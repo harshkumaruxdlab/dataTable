@@ -1,10 +1,6 @@
 console.log('working');
 console.log('Working');
 let baseURL = 'http://eu-api.backendless.com/B14E7C0F-3786-8D8A-FFED-FCE837614900/0043A237-B675-4E1E-AA60-7249A330FF21/data/events?where=kaafal_user_id.company_id%3D31';
-// baseURL = 'http://eu-api.backendless.com/B14E7C0F-3786-8D8A-FFED-FCE837614900/0043A237-B675-4E1E-AA60-7249A330FF21/data/events?where=kaafal_user_id.company_id%3D31&pageSize=5&offset=2';
-// const offset;
-// const pageSize;
-// const URL;
 
 $(document).ready(function () {
     var xmlhttp = new XMLHttpRequest();
