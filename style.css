@@ -1,7 +1,5 @@
-/* body{
-  background: #e0dfdf;
-} */
-#dataTable{
+
+#dataTable2{
 display: block;
 overflow: auto;
 margin: 50px 20px;
@@ -12,7 +10,7 @@ margin: 50px 20px;
 
 table {
     font-family: arial, sans-serif;
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     width: 100%;
     font-size: 13px;
   }
@@ -20,37 +18,31 @@ table {
       /* border-bottom: rgb(163, 162, 162) solid 2px; */
       text-align: center;
       white-space: nowrap;
-      background-color: rgb(53, 52, 52);
-      color: white;
-    }
-    th i{
-      font-size: 12px;
+      /* background-color: rgb(53, 52, 52); */
+      /* color: white; */
     }
     table tfoot{
-        white-space: nowrap;
+      white-space: nowrap;
       text-align: center;
-      border-top: rgb(163, 162, 162) solid 2px;
-  }
-  td{
-    border: 1px solid #dddddd;
-    /* text-align: left; */
-    padding: 8px;
-  }
+      /* border-top: rgb(163, 162, 162) solid 2px; */
+    }
+    td{
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+      white-space: nowrap;
+    }
   th {
-    /* border: 1px solid #dddddd; */
-    /* text-align: left; */
+    border: 1px solid #dddddd;
+    text-align: center;
     padding: 8px;
   }
   
-  tr:nth-child(even) {
+  /* tr:nth-child(even) {
     background-color: #dddddd;
-  }
+  } */
 
-  #changeData{
+  /* #changeData{
       display: flex;
       justify-content: space-around;
-  }
-
-  #navbarSupportedContent {
-    justify-content: flex-end;
-  }
+  } */

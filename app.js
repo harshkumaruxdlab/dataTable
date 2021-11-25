@@ -13,6 +13,7 @@ $(document).ready(function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var newData = JSON.parse(xmlhttp.responseText);
             $("#Tab").DataTable({
+                "scrollX": true,
                 data: newData,
                 "columns": [
                     { "data": "checkpoint" },
